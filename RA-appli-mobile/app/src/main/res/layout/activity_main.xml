@@ -7,6 +7,7 @@
     android:gravity="center"
     android:layout_height="match_parent"
     android:background="@drawable/back_design"
+<<<<<<< HEAD
     tools:context=".view.MainActivity">
 
     <LinearLayout
@@ -14,14 +15,27 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+=======
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="@string/app_name"
+<<<<<<< HEAD
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="@android:color/white" />
+=======
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"/>
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
 
         <EditText
             android:id="@+id/email_login"
@@ -29,47 +43,76 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/btn_design"
+<<<<<<< HEAD
             android:hint="Adresse E-mail"
             android:padding="10dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
 
+=======
+            android:padding="10dp"
+            android:hint="Adresse E-mail"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
         <EditText
             android:id="@+id/password_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/btn_design"
+<<<<<<< HEAD
             android:hint="Mot de Passe"
             android:padding="10dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
+=======
+            android:padding="10dp"
+            android:hint="Mot de Passe"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
 
         <Button
             android:id="@+id/signin_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+<<<<<<< HEAD
             android:background="@drawable/sign_design"
             android:gravity="center"
             android:text="Se connecter"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white" />
 
+=======
+            android:gravity="center"
+            android:background="@drawable/sign_design"
+            android:text="Se connecter"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
             android:text="OU"
+<<<<<<< HEAD
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="@android:color/white" />
+=======
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"/>
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
 
         <Button
             android:id="@+id/signup_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+<<<<<<< HEAD
             android:background="@drawable/sign_design"
             android:gravity="center"
             android:text="Créer un compte"
@@ -92,4 +135,16 @@
 
 
 
+=======
+            android:gravity="center"
+            android:background="@drawable/sign_design"
+            android:text="Créer un compte"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+
+    </LinearLayout>
+
+
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
 </LinearLayout>

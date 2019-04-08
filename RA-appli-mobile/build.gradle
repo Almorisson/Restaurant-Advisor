@@ -14,7 +14,10 @@ buildscript {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
 allprojects {
     repositories {
         google()

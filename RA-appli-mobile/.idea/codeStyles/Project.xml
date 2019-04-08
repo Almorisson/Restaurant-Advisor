@@ -1,5 +1,6 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
+<<<<<<< HEAD
     <option name="RIGHT_MARGIN" value="100" />
     <AndroidXmlCodeStyleSettings>
       <option name="USE_CUSTOM_SETTINGS" value="true" />
@@ -33,6 +34,8 @@
         </value>
       </option>
     </JavaCodeStyleSettings>
+=======
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
     <Objective-C-extensions>
       <file>
         <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
@@ -58,6 +61,7 @@
         <pair source="c" header="h" fileNamingConvention="NONE" />
       </extensions>
     </Objective-C-extensions>
+<<<<<<< HEAD
     <XML>
       <option name="XML_KEEP_LINE_BREAKS" value="false" />
       <option name="XML_ALIGN_ATTRIBUTES" value="false" />
@@ -167,5 +171,7 @@
         </rules>
       </arrangement>
     </codeStyleSettings>
+=======
+>>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
   </code_scheme>
 </component>
