@@ -1,19 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-<<<<<<< HEAD
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.etna.restaurantadvisor"
         minSdkVersion 15
         targetSdkVersion 27
-=======
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.etna.restaurantadvisor"
         minSdkVersion 15
         targetSdkVersion 28
->>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -26,24 +23,18 @@ android {
     }
 }
 
-<<<<<<< HEAD
 ext {
     version "2.4.0"
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-=======
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
->>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
+
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-<<<<<<< HEAD
 
     implementation "com.squareup.retrofit2:retrofit:$version"
     implementation "com.squareup.retrofit2:converter-gson:$version"
@@ -51,6 +42,4 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:3.2.0"
 
     implementation 'com.android.support:recyclerview-v7:27.1.1'
-=======
->>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
 }
