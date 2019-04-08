@@ -1,9 +1,9 @@
 # Groupe de ndiaye_c
-<<<<<<< HEAD
+--------------------
 
-Chef de Projet: Mor NDIAYE
+Chef de Projet: **Mor NDIAYE**
 
-Binôme: Ilyes DAKHLAOUI
+Binôme: **Ilyes DAKHLAOUI**
 
 ## Projet choisi : Restaurant Advisor
 ------------------------------------
@@ -28,44 +28,16 @@ Binôme: Ilyes DAKHLAOUI
 # `Première Partie du Projet`
 
 ## `Mise en place de l'API`
-=======
-## Projet choisi: Restaurant Advisor
-------------------------------------
-
-# [Première Partie du Projet](#readme-1st-project-part)
-
- - [Mise en place de l'API](#api-dev)
-	- [Restaurants](#restaurants)
-	- [Menus](#menus)
-	- [Authentification](#authentification)
-	- [List des utilisateurs](#users-list)
-	
-
-# [Seconde Partie du Projet](#readme-2st-project-part)
-
-- [Application mobile Android](#mobile-dev-app)
-	- [Front end - UI/UX](#restaurants)
-	- [Communication avec l'API](#nenus)
-
-
-
-## api-setup
->>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
 
 Mise en place de l'API pour les différents services webs destinés à l'application mobile.
 Dans cette première partie, nous avons implémenté tous les fonctionnalités de CRUD(créer, lire, mettre à jour et supprimer) au niveau de l'API. En effet, vous pouvez consulter la liste des restaurants ainsi que les menus qui lui sont associés. Supprimer, modifier les données, créer une resource(restaurant et/ou menu).
 
-<<<<<<< HEAD
-il y a également un système de rating sur chaque restaurant et les menus qui lui sont associés.
-=======
 il y aégalement un système de rating sur chaque restaurant et les menus qui lui sont associés.
->>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
+
 
 Vous pouvez consulter la liste de tous les utilisateurs inscrits à condition d'être authentifé.
 
 Un utilisateur non authentifé ne peut consulter que la liste des restaurants. Il n'aura pas la possibilité de laisser une note.
-
-<<<<<<< HEAD
 
 L'implémentation d'un système de protection des routes permet de garantir que les ressources( Restaurant, Menu et User) ne peuvent être supprimé, modifié ou même être vu
 par un utilisateur nonnconnecté.
@@ -141,12 +113,4 @@ d'afficher les résultats obtenus depuis l'API dans le UI. Cette partie composé
 
 Comme souligner au début de cette section, la communication de notre application mobile et de notre API est assurer pour Retrofit2. Cela nous permet de faire reqêtes avec
 les Verbes **GET**, **POST**, **UPDATE** ou **PUT** et **DELETE** afin de remplir et mettre à jouer notre UI.
-=======
-### `Restaurants`
 
-### `Menus`
-
-### `Authentification`
-
-### `Users List`
->>>>>>> 8e33d984c6b2f3b1ab3e7447e8f4a209a3fd75be
