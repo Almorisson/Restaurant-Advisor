@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Mor NDIAYE on 4/6/19 11:25 PM
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 4/6/19 11:25 PM
+  ~  */
+  -->
+
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:angle="45"
+        android:startColor="#0A8AF3"
+        android:endColor="#B6A619"
+        />
+    <corners android:bottomLeftRadius="180dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="180dp"/>
+
+</shape>
